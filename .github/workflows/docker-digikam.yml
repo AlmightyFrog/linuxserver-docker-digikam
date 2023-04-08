@@ -49,7 +49,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
         with:
-          context: ./${{ env.NAME }}/
+          context: ./
           push: true
           tags: ${{ env.IMAGE_NAME }}:${{ env.RELEASE_DATE }}, ${{ env.IMAGE_NAME }}:latest
           labels: ${{ env.RELEASE_DATE }}, latest
