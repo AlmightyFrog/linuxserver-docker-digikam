@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-rdesktop:arch-dbus
+FROM lscr.io/linuxserver/rdesktop:arch-openbox
 
 # set version label
 ARG BUILD_DATE
