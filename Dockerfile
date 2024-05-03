@@ -12,7 +12,7 @@ ENV TITLE=DigiKam
 
 RUN \
   echo "**** install runtime packages ****" && \
-  pacman -Sy --noconfirm --needed \
+  pacman -Syu --noconfirm --needed \
     xorg-xauth \
     breeze-icons \
     digikam \
