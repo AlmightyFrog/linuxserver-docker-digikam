@@ -15,6 +15,8 @@ RUN \
   pacman -Syu --noconfirm --needed \
     xorg-xauth \
     breeze-icons \
+    hugin \
+    qt6-imageformats \
     digikam \
     firefox \
     mariadb \
